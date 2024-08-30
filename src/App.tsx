@@ -4,7 +4,7 @@ import "./App.css";
 function Header() {
   return (
     <div className="flex items-center justify-between">
-      <h5>Canton Wallet</h5>
+      <h5>Wallet</h5>
       <div className="flex items-center space-x-4">
         <a href="/#">Transactions</a>
         <a href="/#">Subscriptions</a>
