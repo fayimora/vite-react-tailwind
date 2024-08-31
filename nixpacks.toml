@@ -1,6 +1,6 @@
 [phases.install]
 onlyIncludeFiles = [
-  ".npmrc",
+  # ".npmrc",
   "package.json",
   "package-lock.json",
   # "./patches/",
