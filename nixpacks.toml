@@ -3,5 +3,5 @@ onlyIncludeFiles = [
   ".npmrc",
   "package.json",
   "package-lock.json",
-  "./patches/",
+  # "./patches/",
 ]
