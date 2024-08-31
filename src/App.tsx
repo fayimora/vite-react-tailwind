@@ -12,7 +12,7 @@ function Header() {
         <a href="/#">Help</a>
       </div>
       <div className="flex items-center space-x-1 space-x-1">
-        <p>alice.cns</p>
+        <p>aliceeee.cns</p>
         <a href="/#">Logout</a>
       </div>
     </div>
