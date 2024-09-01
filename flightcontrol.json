@@ -33,39 +33,6 @@
           "singlePageApp": true
         }
       ]
-    },
-    {
-      "id": "staging",
-      "name": "Staging",
-      "region": "eu-west-1",
-      "source": {
-        "branch": "main",
-        "pr": false,
-        "trigger": "push"
-      },
-      "services": [
-        {
-          "id": "static-site",
-          "name": "Static Site",
-          "buildType": "nixpacks",
-          "type": "static",
-          "ci": {
-            "type": "ec2",
-            "instanceSize": "t3.small",
-            "instanceStorage": 30,
-            "storageThroughput": 125,
-            "storageIops": 3000,
-            "storageType": "gp3"
-          },
-          "envVariables": {},
-          "basePath": ".",
-          "versionHistoryCount": 10,
-          "installCommand": "npm install",
-          "buildCommand": "npm run build",
-          "outputDirectory": "dist",
-          "singlePageApp": true
-        }
-      ]
     }
   ]
 }
